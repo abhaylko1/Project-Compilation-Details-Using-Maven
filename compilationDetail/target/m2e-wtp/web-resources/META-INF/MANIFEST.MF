@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Built-By: abhay
+Build-Jdk: 1.8.0_242
+Implementation-Title: Compilation Detail
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: com.example.sample
+Build-Time: 
+Created-By: Maven Integration for Eclipse
+Host-Name: 
+
+Name: Versions
+Implementation-SCM-Branch: null
+Implementation-SCM-Revision: null
+Implementation-Version: 0.0.1-SNAPSHOT
+
