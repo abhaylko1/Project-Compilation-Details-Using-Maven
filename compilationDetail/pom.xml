@@ -87,20 +87,10 @@
 							<addDefaultImplementationEntries>true</addDefaultImplementationEntries>
 						</manifest>
 						<manifestEntries>
-							<!-- <Build-Time>${maven.build.timestamp}</Build-Time> -->
 							<Build-Time>${current.time}</Build-Time>
 							<Host-Name>${hostname}</Host-Name>
+							<Github-Branch>${scmBranch}</Github-Branch>
 						</manifestEntries>
-						<manifestSections>
-							<manifestSection>
-								<name>Versions</name>
-								<manifestEntries>
-									<Implementation-Version>${project.version}</Implementation-Version>
-									<Implementation-SCM-Revision>${buildNumber}</Implementation-SCM-Revision>
-									<Implementation-SCM-Branch>${scmBranch}</Implementation-SCM-Branch>
-								</manifestEntries>
-							</manifestSection>
-						</manifestSections>
 					</archive>
 				</configuration>
 			</plugin>

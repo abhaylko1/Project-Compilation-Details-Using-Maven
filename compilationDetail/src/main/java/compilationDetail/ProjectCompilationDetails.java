@@ -27,6 +27,7 @@ public class ProjectCompilationDetails {
 		String impBuiltTime = attributes.getValue("Build-Time");
 		String impHostName = attributes.getValue("Host-Name");
 		String implBuildJdk = attributes.getValue("Build-Jdk");
+		String githubBranchName = attributes.getValue("Github-Branch");
 		if (impBuiltBy != null) {
 			details.put("Built-By", impBuiltBy);
 		}
@@ -38,6 +39,9 @@ public class ProjectCompilationDetails {
 		}
 		if (implBuildJdk != null) {
 			details.put("Build-Jdk", implBuildJdk);
+		}
+		if (githubBranchName != null) {
+			details.put("Github-Branch", githubBranchName);
 		}
 		return details;
 	}
